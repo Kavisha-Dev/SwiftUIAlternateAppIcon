@@ -12,6 +12,7 @@ struct SwiftUIAlternateAppIconApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                //.environmentObject(IconNames())
         }
     }
 }

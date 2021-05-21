@@ -23,6 +23,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 Section(header: Text("Appearance")) {
+                    // TODO in order to see this, uncomment the EnvironmentObject above and in SwiftUIAlternateAppIconApp
                     /*NavigationLink(destination: AppIconView()) {
                         Label("Choose another App Icon", systemImage: "square.grid.2x2").foregroundColor(Color.primary)
                     }
