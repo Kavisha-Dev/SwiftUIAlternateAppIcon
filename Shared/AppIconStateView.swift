@@ -21,6 +21,7 @@ struct AppIconStateView: View  {
             HStack {
                 HStack(spacing: 15) {
                     /// Still blurred image. It gives  a crispy image here if you dont have any AppIcon set in the Asset catalogue.
+                    /// The preview image for AppIcon comes from the Asset catalogue and doesnot matter if you specify 2x & 3x images in Icon folder. 
                     Image(uiImage: UIImage(named: item ?? "AppIcon") ?? UIImage())
                         .renderingMode(.original)
                         .resizable()
