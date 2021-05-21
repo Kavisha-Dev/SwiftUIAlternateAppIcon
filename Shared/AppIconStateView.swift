@@ -20,15 +20,16 @@ struct AppIconStateView: View  {
             
             HStack {
                 HStack(spacing: 15) {
-                    // Still blurred image
-                    /*Image(uiImage: UIImage(named: item ?? "AppIcon") ?? UIImage())
+                    /// Still blurred image. It gives  a crispy image here if you dont have any AppIcon set in the Asset catalogue.
+                    Image(uiImage: UIImage(named: item ?? "AppIcon") ?? UIImage())
                         .renderingMode(.original)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 44, height: 44)
-                        .cornerRadius(8)*/
+                        .cornerRadius(8)
                     
-                    Image(uiImage: UIImage(named: item ?? "AppIcon") ?? UIImage())
+                    // Crispy image
+                    Image(uiImage: UIImage(named: item ?? "AppIcon_01") ?? UIImage())
                         .renderingMode(.original)
                         .resizable()
                         .scaledToFit()
