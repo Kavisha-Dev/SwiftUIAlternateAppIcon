@@ -28,7 +28,7 @@ struct AppIconStateView: View  {
                         .frame(width: 44, height: 44)
                         .cornerRadius(8)*/
                     
-                    Image(uiImage: UIImage(named: item ?? "AppIcon_01") ?? UIImage())
+                    Image(uiImage: UIImage(named: item ?? "AppIcon") ?? UIImage())
                         .renderingMode(.original)
                         .resizable()
                         .scaledToFit()
