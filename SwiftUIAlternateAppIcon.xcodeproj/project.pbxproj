@@ -13,6 +13,21 @@
 		755789682657B20D00A99F0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755789532657B20A00A99F0B /* ContentView.swift */; };
 		755789692657B20D00A99F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755789542657B20D00A99F0B /* Assets.xcassets */; };
 		7557896A2657B20D00A99F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755789542657B20D00A99F0B /* Assets.xcassets */; };
+		755789762657B23C00A99F0B /* ExternalLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755789752657B23C00A99F0B /* ExternalLinkView.swift */; };
+		755789772657B23C00A99F0B /* ExternalLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755789752657B23C00A99F0B /* ExternalLinkView.swift */; };
+		7557897B2657B24600A99F0B /* AppIconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557897A2657B24600A99F0B /* AppIconPickerView.swift */; };
+		7557897C2657B24600A99F0B /* AppIconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557897A2657B24600A99F0B /* AppIconPickerView.swift */; };
+		755789802657B25600A99F0B /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557897F2657B25600A99F0B /* AppIconView.swift */; };
+		755789812657B25600A99F0B /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557897F2657B25600A99F0B /* AppIconView.swift */; };
+		7557898D2657B2BF00A99F0B /* AppIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755789852657B2BE00A99F0B /* AppIcon@3x.png */; };
+		7557898E2657B2BF00A99F0B /* MNM_02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755789862657B2BF00A99F0B /* MNM_02@3x.png */; };
+		7557898F2657B2BF00A99F0B /* MNM_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755789872657B2BF00A99F0B /* MNM_01@2x.png */; };
+		755789902657B2BF00A99F0B /* MNM_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755789882657B2BF00A99F0B /* MNM_01@3x.png */; };
+		755789912657B2BF00A99F0B /* AppIcon_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 755789892657B2BF00A99F0B /* AppIcon_01@2x.png */; };
+		755789922657B2BF00A99F0B /* AppIcon_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7557898A2657B2BF00A99F0B /* AppIcon_01@3x.png */; };
+		755789932657B2BF00A99F0B /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7557898B2657B2BF00A99F0B /* AppIcon@2x.png */; };
+		755789942657B2BF00A99F0B /* MNM_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7557898C2657B2BF00A99F0B /* MNM_02@2x.png */; };
+		755789982657B41900A99F0B /* AppIconStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755789972657B41900A99F0B /* AppIconStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,18 @@
 		755789612657B20D00A99F0B /* SwiftUIAlternateAppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAlternateAppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		755789632657B20D00A99F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		755789642657B20D00A99F0B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		755789752657B23C00A99F0B /* ExternalLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalLinkView.swift; sourceTree = "<group>"; };
+		7557897A2657B24600A99F0B /* AppIconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconPickerView.swift; sourceTree = "<group>"; };
+		7557897F2657B25600A99F0B /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		755789852657B2BE00A99F0B /* AppIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon@3x.png"; sourceTree = "<group>"; };
+		755789862657B2BF00A99F0B /* MNM_02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MNM_02@3x.png"; sourceTree = "<group>"; };
+		755789872657B2BF00A99F0B /* MNM_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MNM_01@2x.png"; sourceTree = "<group>"; };
+		755789882657B2BF00A99F0B /* MNM_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MNM_01@3x.png"; sourceTree = "<group>"; };
+		755789892657B2BF00A99F0B /* AppIcon_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon_01@2x.png"; sourceTree = "<group>"; };
+		7557898A2657B2BF00A99F0B /* AppIcon_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon_01@3x.png"; sourceTree = "<group>"; };
+		7557898B2657B2BF00A99F0B /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon@2x.png"; sourceTree = "<group>"; };
+		7557898C2657B2BF00A99F0B /* MNM_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MNM_02@2x.png"; sourceTree = "<group>"; };
+		755789972657B41900A99F0B /* AppIconStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,10 @@
 				755789522657B20A00A99F0B /* SwiftUIAlternateAppIconApp.swift */,
 				755789532657B20A00A99F0B /* ContentView.swift */,
 				755789542657B20D00A99F0B /* Assets.xcassets */,
+				755789752657B23C00A99F0B /* ExternalLinkView.swift */,
+				7557897A2657B24600A99F0B /* AppIconPickerView.swift */,
+				7557897F2657B25600A99F0B /* AppIconView.swift */,
+				755789972657B41900A99F0B /* AppIconStateView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +107,7 @@
 		7557895B2657B20D00A99F0B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				755789842657B29B00A99F0B /* Icon */,
 				7557895C2657B20D00A99F0B /* Info.plist */,
 			);
 			path = iOS;
@@ -88,6 +120,21 @@
 				755789642657B20D00A99F0B /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		755789842657B29B00A99F0B /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				755789892657B2BF00A99F0B /* AppIcon_01@2x.png */,
+				7557898A2657B2BF00A99F0B /* AppIcon_01@3x.png */,
+				7557898B2657B2BF00A99F0B /* AppIcon@2x.png */,
+				755789852657B2BE00A99F0B /* AppIcon@3x.png */,
+				755789872657B2BF00A99F0B /* MNM_01@2x.png */,
+				755789882657B2BF00A99F0B /* MNM_01@3x.png */,
+				7557898C2657B2BF00A99F0B /* MNM_02@2x.png */,
+				755789862657B2BF00A99F0B /* MNM_02@3x.png */,
+			);
+			path = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +215,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7557898D2657B2BF00A99F0B /* AppIcon@3x.png in Resources */,
+				755789902657B2BF00A99F0B /* MNM_01@3x.png in Resources */,
 				755789692657B20D00A99F0B /* Assets.xcassets in Resources */,
+				755789922657B2BF00A99F0B /* AppIcon_01@3x.png in Resources */,
+				7557898F2657B2BF00A99F0B /* MNM_01@2x.png in Resources */,
+				755789942657B2BF00A99F0B /* MNM_02@2x.png in Resources */,
+				755789932657B2BF00A99F0B /* AppIcon@2x.png in Resources */,
+				755789912657B2BF00A99F0B /* AppIcon_01@2x.png in Resources */,
+				7557898E2657B2BF00A99F0B /* MNM_02@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755789762657B23C00A99F0B /* ExternalLinkView.swift in Sources */,
+				7557897B2657B24600A99F0B /* AppIconPickerView.swift in Sources */,
 				755789672657B20D00A99F0B /* ContentView.swift in Sources */,
+				755789982657B41900A99F0B /* AppIconStateView.swift in Sources */,
 				755789652657B20D00A99F0B /* SwiftUIAlternateAppIconApp.swift in Sources */,
+				755789802657B25600A99F0B /* AppIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755789772657B23C00A99F0B /* ExternalLinkView.swift in Sources */,
+				7557897C2657B24600A99F0B /* AppIconPickerView.swift in Sources */,
 				755789682657B20D00A99F0B /* ContentView.swift in Sources */,
 				755789662657B20D00A99F0B /* SwiftUIAlternateAppIconApp.swift in Sources */,
+				755789812657B25600A99F0B /* AppIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
